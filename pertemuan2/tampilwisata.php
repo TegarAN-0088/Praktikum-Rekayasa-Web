@@ -14,6 +14,7 @@ $send = curl("http://localhost/rekayasaweb/pertemuan2/getwisata.php");
 //mengubah JSON menjadi array
 $data = json_decode($send, true);
 
+//membuat table dari data wisata
 echo "<table border='1' cellpadding='10' cellspacing='0'>";
 echo "<tr>
         <th>ID Wisata</th>
